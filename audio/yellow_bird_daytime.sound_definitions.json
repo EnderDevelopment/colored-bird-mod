@@ -1,0 +1,14 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "yellow_bird.daytime": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "yellow_bird_daytime",
+          "volume": 1.0
+        }
+      ]
+    }
+  }
+}

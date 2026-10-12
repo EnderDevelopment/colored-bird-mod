@@ -1,0 +1,14 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "green_bird.nighttime": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "green_bird_nighttime",
+          "volume": 1.0
+        }
+      ]
+    }
+  }
+}

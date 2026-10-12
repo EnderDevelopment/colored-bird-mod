@@ -1,0 +1,27 @@
+plugins {
+  id 'java'
+  id 'maven-publish'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_17
+
+tasks.withType<JavaCompile> {
+  options.encoding = 'UTF-8'
+}
+
+tasks.register('createJar', Jar) {
+  archiveFileName.set("BirdSoundsMod-1.0.jar")
+  from sourceSets.main.get().output
+  manifest {
+    attributes(
+      'Main-Class' to 'com.example.BirdSoundsMod'
+    )
+  }
+}
+
+tasks.register('publishToMavenLocal', PublishToMavenLocal) {
+  dependsOn tasks.createJar
+}

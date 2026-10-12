@@ -1,0 +1,14 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "blue_bird.nighttime": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "blue_bird_nighttime",
+          "volume": 1.0
+        }
+      ]
+    }
+  }
+}

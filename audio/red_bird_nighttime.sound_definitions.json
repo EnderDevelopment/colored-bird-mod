@@ -1,0 +1,14 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "red_bird.nighttime": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "red_bird_nighttime",
+          "volume": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "white_bird.daytime": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "white_bird_daytime",
+          "volume": 1.0
+        }
+      ]
+    }
+  }
+}

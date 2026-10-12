@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "birdsoundsmod",
+  "version": "1.0.0",
+  "name": "Bird Sounds Mod",
+  "description": "A mod that adds six colored bird variants with natural behaviors, animations, and realistic sounds.",
+  "authors": ["Your Name"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.BirdSoundsMod"
+    ]
+  },
+  "mixins": [
+    "birdsoundsmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.19"
+  }
+}

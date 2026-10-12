@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "birdsoundsmod:black_bird",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_collision": true,
+        "has_gravity": true
+      },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      }
+    }
+  }
+}
